@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "outlook-events-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/outlookEvents/OutlookEventsWebPart.js",
+          "manifest": "./src/webparts/outlookEvents/OutlookEventsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "OutlookEventsWebPartStrings": "lib/webparts/outlookEvents/loc/{locale}.js"
+  }
+}
